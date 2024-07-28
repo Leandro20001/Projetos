@@ -1,4 +1,17 @@
 import ReturnBtn from "./ReturnBtn";
+import yoda from "./assets/images/babyyoda.png"
+import myPhoto from "./assets/images/myphoto.jpeg"
+import lshop1 from "./assets/images/l-shop1.png"
+import lshop2 from "./assets/images/l-shop2.png"
+import lshop3 from "./assets/images/l-shop3.png"
+import img2 from "./assets/images/project1.png"
+import img3 from "./assets/images/project2.png"
+import img4 from  "./assets/images/nextacademy.png"
+import lshop4 from "./assets/images/semtitulo.png"
+import employ from "./assets/images/1.png"
+import employ2 from "./assets/images/2.png"
+import employ3 from "./assets/images/3.png"
+import employ4 from "./assets/images/4.png"
 
 export default function Project2(){
     return(
@@ -11,19 +24,19 @@ export default function Project2(){
         </p>
         <h1>Employee Manager</h1>
         <div id="showLshop">
-            <img src="./assets/1.png" alt="" />
+            <img src={employ} alt="" />
         </div>
 
         <div id="showLshop">
-            <img src="./assets/2.png" alt="" />
+            <img src={employ2} alt="" />
         </div>
 
         <div id="showLshop">
-            <img src="./assets/3.png" alt="" />
+            <img src={employ3} alt="" />
         </div>
         
         <div id="showLshop">
-            <img src="./assets/4.png" alt="" />
+            <img src={employ4} alt="" />
         </div>
         </>
     )

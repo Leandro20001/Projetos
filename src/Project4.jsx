@@ -1,5 +1,6 @@
 import ReturnBtn from "./ReturnBtn";
-
+import img4 from  "./assets/images/nextacademy.png"
+import img5 from "./assets/images/nextacademy2.png"
 export default function Project4(){
     return(
         <>
@@ -12,11 +13,11 @@ export default function Project4(){
 
         </p>
         <div id="showLshop">
-            <img src="./assets/nextAcademy.png" alt="" />
+            <img src={img4} alt="" />
         </div>
 
         <div className="lastNextAcademyBox" id="showLshop">
-            <img src="./assets/nextAcademy2.png" alt="" />
+            <img src={img5} alt="" />
         </div>
         </>
     )

@@ -1,5 +1,6 @@
 import ReturnBtn from "./ReturnBtn";
-
+import img2 from "./assets/images/project1.png"
+import img3 from "./assets/images/project2.png"
 export default function Project3(){
     return(
         <>
@@ -10,11 +11,11 @@ export default function Project3(){
 
         </p>
         <div id="showLshop">
-            <img src="./assets/project1.jpg" alt="" />
+            <img src={img2} alt="" />
         </div>
 
         <div id="showLshop">
-            <img src="./assets/project2.jpg" alt="" />
+            <img src={img3} alt="" />
         </div>
         </>
     )

@@ -1,5 +1,26 @@
 import { useEffect, useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
+import employ from "./assets/images/1.png"
+import employ2 from "./assets/images/2.png"
+import employ3 from "./assets/images/3.png"
+import employ4 from "./assets/images/4.png"
+import yoda from "./assets/images/babyyoda.png"
+import myPhoto from "./assets/images/myphoto.jpeg"
+import lshop1 from "./assets/images/l-shop1.png"
+import lshop2 from "./assets/images/l-shop2.png"
+import lshop3 from "./assets/images/l-shop3.png"
+import img2 from "./assets/images/project1.png"
+import img3 from "./assets/images/project2.png"
+import img4 from  "./assets/images/nextacademy.png"
+
+
+
+
+
+
+
+
+
 
 
 export default function Home(){
@@ -41,7 +62,7 @@ export default function Home(){
     <header>
 
       <div id="yoda">
-        <img src="./assets/babyyoda.png" alt="" />
+        <img src={yoda} alt="" />
       </div>
 
 
@@ -52,7 +73,7 @@ export default function Home(){
     <h1>Bem vindo ao meu portifólio</h1>
 
     <div id="myPhotoDiv">
-      <img  src="./assets/myPhoto.jpeg" alt="" />
+      <img  src={myPhoto} alt="" />
     </div>
 
     <p className="mainP">Meu Nome é Leandro Ferreira Lima,sou Desenvolvedor Fullstack especializado em Javascript. Trabalho com as tecnologias mais utilizadas do mercado: ReactJS, React Native, NextJS, NodeJS, Python, criação e uso de APIs e Bancos de dados relacionais e não relacionais.</p>
@@ -68,9 +89,9 @@ export default function Home(){
         nav('L-Shop')
       }} 
       className="projectBox" id="box1">
-        <img className={changeImg1} src="./assets/l-shop1.png" alt="" />
-        <img className={changeImg2} src="./assets/imgs/l-shop2.png" alt="" />
-        <img className={changeImg3} src="./assets/l-shop3.png" alt="" />
+        <img className={changeImg1} src={lshop1} alt="" />
+        <img className={changeImg2} src={lshop2} alt="" />
+        <img className={changeImg3} src={lshop3} alt="" />
         <span>L-shop</span>
       </div>
 
@@ -79,7 +100,9 @@ export default function Home(){
         nav('Employee-Manager')
       }}  
       className="projectBox">
-        <img src="./assets/3.png" alt="" />
+        <img className={changeImg1} src={employ} alt="" />
+        <img className={changeImg2} src={employ2} alt="" />
+        <img className={changeImg3} src={employ3} alt="" />
         <span>Employee Manager</span>
       </div>
 
@@ -88,9 +111,9 @@ export default function Home(){
         nav('Layout-Project')
       }}  
       className="projectBox">
-        <img className={changeImg1} src="./assets/project1.JPG" alt="" />
-        <img className={changeImg2} src="./assets/project1.JPG" alt="" />
-        <img className={changeImg3} src="./assets/project2.JPG" alt="" />
+        <img className={changeImg1} src={img2} alt="" />
+        <img className={changeImg2} src={img2} alt="" />
+        <img className={changeImg3} src={img3} alt="" />
         <span>Exemplo De Layout</span>
       </div>
 
@@ -99,7 +122,7 @@ export default function Home(){
         nav('Next-Academy')
       }}  
       className="projectBox">
-        <img  src="./assets/nextAcademy.png" alt="" />
+        <img  src={img4} alt="" />
         <span>Next Academy</span>
       </div>
 

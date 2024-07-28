@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom"
-
+import returnPhoto from "./assets/images/returnbtn.png"
 export default function ReturnBtn(){
     const nav = useNavigate()
     return(
         <button onClick={()=>{
             nav('/')
         }} id="returnBtn">
-            <img src="./assets/returnBtn.png" alt="" />
+            <img src={returnPhoto} alt="" />
         </button>
     )
 }

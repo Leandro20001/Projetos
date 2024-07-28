@@ -11,19 +11,19 @@ export default function Project2(){
         </p>
         <h1>Employee Manager</h1>
         <div id="showLshop">
-            <img src="assets/1.png" alt="" />
+            <img src="./assets/1.png" alt="" />
         </div>
 
         <div id="showLshop">
-            <img src="assets/2.png" alt="" />
+            <img src="./assets/2.png" alt="" />
         </div>
 
         <div id="showLshop">
-            <img src="assets/3.png" alt="" />
+            <img src="./assets/3.png" alt="" />
         </div>
         
         <div id="showLshop">
-            <img src="assets/4.png" alt="" />
+            <img src="./assets/4.png" alt="" />
         </div>
         </>
     )

@@ -12,11 +12,11 @@ export default function Project4(){
 
         </p>
         <div id="showLshop">
-            <img src="assets/nextAcademy.png" alt="" />
+            <img src="./assets/nextAcademy.png" alt="" />
         </div>
 
         <div className="lastNextAcademyBox" id="showLshop">
-            <img src="assets/nextAcademy2.png" alt="" />
+            <img src="./assets/nextAcademy2.png" alt="" />
         </div>
         </>
     )

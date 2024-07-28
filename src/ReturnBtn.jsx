@@ -6,7 +6,7 @@ export default function ReturnBtn(){
         <button onClick={()=>{
             nav('/')
         }} id="returnBtn">
-            <img src="assets/returnBtn.png" alt="" />
+            <img src="./assets/returnBtn.png" alt="" />
         </button>
     )
 }

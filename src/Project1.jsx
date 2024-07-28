@@ -10,19 +10,19 @@ export default function Project1(){
         </p>
       
         <div id="showLshop">
-            <img src="assets/l-shop1.png" alt="" />
+            <img src="./assets/l-shop1.png" alt="" />
         </div>
 
         <div id="showLshop">
-            <img src="assets/l-shop2.png" alt="" />
+            <img src="./assets/l-shop2.png" alt="" />
         </div>
 
         <div id="showLshop">
-            <img src="assets/l-shop3.png" alt="" />
+            <img src="./assets/l-shop3.png" alt="" />
         </div>
         
         <div id="showLshop">
-            <img src="assets/semtitulo.png" alt="" />
+            <img src="./assets/semtitulo.png" alt="" />
         </div>
 
         </>

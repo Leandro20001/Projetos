@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./assets/Home";
+import Home from "./Home"
 import { BrowserRouter,HashRouter,Routes,Route } from "react-router-dom";
 import Project1 from "./Project1";
 import Project2 from "./Project2"

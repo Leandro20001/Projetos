@@ -41,7 +41,7 @@ export default function Home(){
     <header>
 
       <div id="yoda">
-        <img src="assets/babyyoda.png" alt="" />
+        <img src="./assets/babyyoda.png" alt="" />
       </div>
 
 
@@ -52,7 +52,7 @@ export default function Home(){
     <h1>Bem vindo ao meu portifólio</h1>
 
     <div id="myPhotoDiv">
-      <img  src="assets/myPhoto.jpeg" alt="" />
+      <img  src="./assets/myPhoto.jpeg" alt="" />
     </div>
 
     <p className="mainP">Meu Nome é Leandro Ferreira Lima,sou Desenvolvedor Fullstack especializado em Javascript. Trabalho com as tecnologias mais utilizadas do mercado: ReactJS, React Native, NextJS, NodeJS, Python, criação e uso de APIs e Bancos de dados relacionais e não relacionais.</p>
@@ -68,9 +68,9 @@ export default function Home(){
         nav('L-Shop')
       }} 
       className="projectBox" id="box1">
-        <img className={changeImg1} src="assets//l-shop1.png" alt="" />
-        <img className={changeImg2} src="assets/imgs/l-shop2.png" alt="" />
-        <img className={changeImg3} src="assets/l-shop3.png" alt="" />
+        <img className={changeImg1} src="./assets/l-shop1.png" alt="" />
+        <img className={changeImg2} src="./assets/imgs/l-shop2.png" alt="" />
+        <img className={changeImg3} src="./assets/l-shop3.png" alt="" />
         <span>L-shop</span>
       </div>
 
@@ -79,7 +79,7 @@ export default function Home(){
         nav('Employee-Manager')
       }}  
       className="projectBox">
-        <img src="assets/3.png" alt="" />
+        <img src="./assets/3.png" alt="" />
         <span>Employee Manager</span>
       </div>
 
@@ -88,9 +88,9 @@ export default function Home(){
         nav('Layout-Project')
       }}  
       className="projectBox">
-        <img className={changeImg1} src="assets/project1.JPG" alt="" />
-        <img className={changeImg2} src="assets/project1.JPG" alt="" />
-        <img className={changeImg3} src="assets/project2.JPG" alt="" />
+        <img className={changeImg1} src="./assets/project1.JPG" alt="" />
+        <img className={changeImg2} src="./assets/project1.JPG" alt="" />
+        <img className={changeImg3} src="./assets/project2.JPG" alt="" />
         <span>Exemplo De Layout</span>
       </div>
 
@@ -99,7 +99,7 @@ export default function Home(){
         nav('Next-Academy')
       }}  
       className="projectBox">
-        <img  src="assets/nextAcademy.png" alt="" />
+        <img  src="./assets/nextAcademy.png" alt="" />
         <span>Next Academy</span>
       </div>
 

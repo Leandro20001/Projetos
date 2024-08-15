@@ -5,15 +5,22 @@ import Project1 from "./Project1";
 import Project2 from "./Project2"
 import Project3 from "./Project3"
 import Project4 from "./Project4";
+import Project5 from "./Project5";
 export default function RoutesApp(){
   return(
     <HashRouter>
     <Routes>
         <Route path="/" element={<Home/>}></Route>
+
         <Route path="/L-Shop" element={<Project1/>}></Route>
+
         <Route path="/Employee-Manager" element={<Project2/>}></Route>
+
         <Route path="/Layout-Project" element={<Project3/>}></Route>
+
         <Route path="/Next-Academy" element={<Project4/>}></Route>
+
+        <Route path="/Hotel-Lorem" element={<Project5/>}></Route>
     </Routes>
     </HashRouter>
   )

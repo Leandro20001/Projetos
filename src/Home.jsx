@@ -12,9 +12,11 @@ import lshop3 from "./assets/images/l-shop3.png"
 import img2 from "./assets/images/project1.png"
 import img3 from "./assets/images/project2.png"
 import img4 from  "./assets/images/nextacademy.png"
-
-
-
+import nextimg from './assets/images/nextacademy2.png'
+import lorem from './assets/images/lorem1.png'
+import lorem2 from './assets/images/lorem2.png'
+import lorem3 from './assets/images/lorem3.png'
+import lorem4 from './assets/images/lorem4.png'
 
 
 
@@ -122,11 +124,26 @@ export default function Home(){
         nav('Next-Academy')
       }}  
       className="projectBox">
-        <img  src={img4} alt="" />
+        <img className={changeImg1} src={img4} alt="" />
+        <img className={changeImg2} src={nextimg} alt="" />
+        <img className={changeImg1} src={img4} alt="" />
+        <img className={changeImg3} src={nextimg} alt="" />
         <span>Next Academy</span>
       </div>
 
+      <div
+      onClick={()=>{
+        nav('Hotel-Lorem')
+      }}  
+      className="projectBox">
+        <img src={lorem2} alt="" />
+       
+        <span>Hotel Lorem</span>
+      </div>
+
     </div>
+
+    
 
 
 

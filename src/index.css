@@ -16,7 +16,7 @@ body{
   width: 100%;
 }
 #yoda{
-  right: 200px;
+  right: 120px;
   position: absolute;
   width: 160px;
   height: 160px;
@@ -31,6 +31,9 @@ header a{
   margin-right: 30px;
   font-size: 24px;
   text-decoration: none;
+  color: black;
+}
+h2{
   color: black;
 }
 #showLshop{
@@ -125,6 +128,11 @@ header a{
 }
 h1{text-align: center;color: black;}
 #gitIco img{width: 100%;}
+
+.lorem img{
+  max-width: 400px;
+  max-height: 640px;
+}
 .mainP{
   
   line-height: 32px;
@@ -183,7 +191,7 @@ h2{
   font-weight: bolder;
   text-align: center;
   display: block;
-  margin-top:410px;
+  margin-top:360px;
   color: aliceblue;
 }
 

@@ -94,7 +94,6 @@ export default function Home(){
         <img className={changeImg1} src={lshop1} alt="" />
         <img className={changeImg2} src={lshop2} alt="" />
         <img className={changeImg3} src={lshop3} alt="" />
-        <span>L-shop</span>
       </div>
 
       <div
@@ -105,7 +104,7 @@ export default function Home(){
         <img className={changeImg1} src={employ} alt="" />
         <img className={changeImg2} src={employ2} alt="" />
         <img className={changeImg3} src={employ3} alt="" />
-        <span>Employee Manager</span>
+
       </div>
 
       <div
@@ -116,7 +115,6 @@ export default function Home(){
         <img className={changeImg1} src={img2} alt="" />
         <img className={changeImg2} src={img2} alt="" />
         <img className={changeImg3} src={img3} alt="" />
-        <span>Exemplo De Layout</span>
       </div>
 
       <div
@@ -128,7 +126,6 @@ export default function Home(){
         <img className={changeImg2} src={nextimg} alt="" />
         <img className={changeImg1} src={img4} alt="" />
         <img className={changeImg3} src={nextimg} alt="" />
-        <span>Next Academy</span>
       </div>
 
       <div
@@ -138,7 +135,6 @@ export default function Home(){
       className="projectBox">
         <img src={lorem2} alt="" />
        
-        <span>Hotel Lorem</span>
       </div>
 
     </div>

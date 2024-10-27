@@ -20,6 +20,7 @@ export default function Project1(){
 
         </p>
       
+        <div className="showProjectsImg">
         <div id="showLshop">
             <img src={lshop1} alt="" />
         </div>
@@ -34,6 +35,7 @@ export default function Project1(){
         
         <div id="showLshop">
             <img src={lshop4} alt="" />
+        </div>
         </div>
 
         </>

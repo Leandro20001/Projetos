@@ -17,6 +17,18 @@ import lorem from './assets/images/lorem1.png'
 import lorem2 from './assets/images/lorem2.png'
 import lorem3 from './assets/images/lorem3.png'
 import lorem4 from './assets/images/lorem4.png'
+import pix1 from './assets/images/pixSite.png'
+import pix2 from './assets/images/pixSite2.png'
+import pix3 from './assets/images/pixSite3.png'
+import pix4 from './assets/images/pixSite4.png'
+import siteRevista from './assets/images/siteRevista.png'
+import siteRevista2 from './assets/images/siteRevista2.png'
+import falaMusico from './assets/images/falaMusico.jpeg'
+import falaMusico2 from './assets/images/falaMusico2.jpeg'
+import falaMusico3 from './assets/images/falaMusico23jpeg.jpeg'
+import fm from './assets/images/fm.png'
+import fm2 from './assets/images/fm2.png'
+import fm3 from './assets/images/fm3.png'
 
 
 
@@ -72,7 +84,7 @@ export default function Home(){
       <Link to={'https://github.com/Leandro20001'}>Meu GitHub</Link>
     </header>
     <span id="mainSpan">Olá!</span>
-    <h1>Bem vindo ao meu portifólio</h1>
+    <h1>Bem Vindo ao Meu Portifólio</h1>
 
     <div id="myPhotoDiv">
       <img  src={myPhoto} alt="" />
@@ -96,16 +108,7 @@ export default function Home(){
         <img className={changeImg3} src={lshop3} alt="" />
       </div>
 
-      <div
-      onClick={()=>{
-        nav('Employee-Manager')
-      }}  
-      className="projectBox">
-        <img className={changeImg1} src={employ} alt="" />
-        <img className={changeImg2} src={employ2} alt="" />
-        <img className={changeImg3} src={employ3} alt="" />
-
-      </div>
+  
 
       <div
       onClick={()=>{
@@ -126,6 +129,50 @@ export default function Home(){
         <img className={changeImg2} src={nextimg} alt="" />
         <img className={changeImg1} src={img4} alt="" />
         <img className={changeImg3} src={nextimg} alt="" />
+      </div>
+
+      <div
+      onClick={()=>{
+        nav('Layout-Produto-Digital')
+      }}  
+      className="projectBox">
+        <img className={changeImg1} src={pix1} alt="" />
+        <img className={changeImg2} src={pix2} alt="" />
+        <img className={changeImg1} src={pix3} alt="" />
+        <img className={changeImg3} src={pix4} alt="" />
+      </div>
+
+      <div
+      onClick={()=>{
+        nav('Site-Revista')
+      }}  
+      className="projectBox">
+        <img className={changeImg1} src={siteRevista} alt="" />
+        <img className={changeImg2} src={siteRevista2} alt="" />
+        <img className={changeImg1} src={siteRevista} alt="" />
+        <img className={changeImg3} src={siteRevista2} alt="" />
+      </div>
+
+      <div
+      onClick={()=>{
+        nav('Centro-Musical')
+      }}  
+      className="projectBox">
+        <img className={changeImg1} src={falaMusico} alt="" />
+        <img className={changeImg2} src={falaMusico2} alt="" />
+        <img className={changeImg1} src={falaMusico3} alt="" />
+        <img className={changeImg3} src={falaMusico} alt="" />
+      </div>
+
+      <div
+      onClick={()=>{
+        nav('Fala-Musico')
+      }}  
+      className="projectBox">
+        <img className={changeImg1} src={fm} alt="" />
+        <img className={changeImg2} src={fm2} alt="" />
+        <img className={changeImg1} src={fm3} alt="" />
+        <img className={changeImg3} src={fm} alt="" />
       </div>
 
       <div

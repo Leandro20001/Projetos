@@ -6,17 +6,19 @@ export default function Project3(){
         <>
         <ReturnBtn/>
          <p className="pProject">
-         Esse é um exemplo de layout que posso fazer em seu site
+         Esse é um exemplo de layout que posso fazer em seu site.
 
 
         </p>
-        <div id="showLshop">
+       <div className="showProjectsImg">
+       <div id="showLshop">
             <img src={img2} alt="" />
         </div>
 
         <div id="showLshop">
             <img src={img3} alt="" />
         </div>
+       </div>
         </>
     )
 }

@@ -5,7 +5,7 @@ import employ2 from "./assets/images/2.png"
 import employ3 from "./assets/images/3.png"
 import employ4 from "./assets/images/4.png"
 import yoda from "./assets/images/babyyoda.png"
-import myPhoto from "./assets/images/myphoto.jpeg"
+import myPhoto from "./assets/images/cachorro.jpg"
 import lshop1 from "./assets/images/l-shop1.png"
 import lshop2 from "./assets/images/l-shop2.png"
 import lshop3 from "./assets/images/l-shop3.png"
@@ -93,10 +93,11 @@ export default function Home(){
     <p className="mainP">Meu Nome é Leandro Ferreira Lima,sou Desenvolvedor Fullstack especializado em Javascript. Trabalho com as tecnologias mais utilizadas do mercado: ReactJS, React Native, NextJS, NodeJS, Python, criação e uso de APIs e Bancos de dados relacionais e não relacionais.</p>
     <p id="secondMainP" className="mainP">Espero Trabalhar com você em seu projeto!</p>
 
-    <h2>Meu Projetos</h2>
+    
 
 
     <div id="projectsDiv">
+    <h2>Meu Projetos</h2>
 
       <div
       onClick={()=>{
@@ -120,16 +121,6 @@ export default function Home(){
         <img className={changeImg3} src={img3} alt="" />
       </div>
 
-      <div
-      onClick={()=>{
-        nav('Next-Academy')
-      }}  
-      className="projectBox">
-        <img className={changeImg1} src={img4} alt="" />
-        <img className={changeImg2} src={nextimg} alt="" />
-        <img className={changeImg1} src={img4} alt="" />
-        <img className={changeImg3} src={nextimg} alt="" />
-      </div>
 
       <div
       onClick={()=>{
@@ -175,14 +166,7 @@ export default function Home(){
         <img className={changeImg3} src={fm} alt="" />
       </div>
 
-      <div
-      onClick={()=>{
-        nav('Hotel-Lorem')
-      }}  
-      className="projectBox">
-        <img src={lorem2} alt="" />
-       
-      </div>
+
 
     </div>
 

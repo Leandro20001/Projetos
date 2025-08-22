@@ -61,12 +61,12 @@ h2{
   width:100%;
 }
 .showProjectsImg{
-  overflow-x: scroll!important;
+
   display: flex;
   flex-wrap: wrap;
   min-width: 100%!important;
-
-  min-height: 580px;
+  height: 100vh;
+  min-height: fit-content;
 }
 #inDevelopment{
   margin-top: 20px;
@@ -82,7 +82,7 @@ h2{
 }
 
 
-#showLshop img{width: 460px;height: 300px;display: block;margin:20px auto;}
+#showLshop img{width: 600px;height: 440px;display: block;margin:20px auto;}
 
 
 
@@ -164,10 +164,7 @@ h2{
 h1{text-align: center;color: black;}
 #gitIco img{width: 100%;}
 
-.lorem img{
-  max-width: 400px;
-  max-height: 640px;
-}
+
 .mainP{
   
   line-height: 32px;
@@ -195,6 +192,7 @@ h1{
 }
 h2{
   text-align: center;
+  width: 100%;
   font-size: 2.4rem;
 }
 #projectsDiv{
@@ -202,7 +200,7 @@ h2{
   justify-content: center;
   display:flex;
   box-sizing: border-box;
-  padding-top: 40px;
+  padding-top: 24px;
   flex-wrap: wrap;
   background-color: rgba(11, 11, 11, 0.945);
   width: 100%;
@@ -220,15 +218,11 @@ h2{
   aspect-ratio: 4/3;
   align-content: center;
   border-radius: 40px;
-  width: 280px;
+  width: 320px;
   margin: 20px;
-  height: 200px;
+  height: 240px;
 }
-.projectBox:nth-child(5){margin-top: 80px;}
-.projectBox:nth-child(6){margin-top: 80px;}
-.projectBox:nth-child(7){margin-top: 80px;}
-.projectBox:nth-child(8){margin-top: 80px;}
-.projectBox:nth-child(9){margin-top: 80px;}
+
 
 .projectBox::after{
   content: '';
@@ -238,33 +232,7 @@ h2{
   text-align: center;
   margin: 180px auto auto auto;
 }
-.projectBox:nth-child(1):after{
-  content: 'L-Shop';
-}
-.projectBox:nth-child(2):after{
-  content: 'Employee Manager';
-}
-.projectBox:nth-child(3):after{
-  content: 'Show Product';
-}
-.projectBox:nth-child(4):after{
-  content: 'Exemplo de Site Para Curso';
-}
-.projectBox:nth-child(5)::after{
-  content: 'Site Para Negócios';
-}
-.projectBox:nth-child(6)::after{
-  content: 'Site Para Negócios';
-}
-.projectBox:nth-child(7)::after{
-  content: 'Site Para Negócios';
-}
-.projectBox:nth-child(8)::after{
-  content: 'Site Para Negócios';
-}
-.projectBox:nth-child(9):after{
-  content: 'Hotel Lorem';
-}
+
 
 .projectBox span{
   font-size: 24px;
